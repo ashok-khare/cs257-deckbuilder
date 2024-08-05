@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+    <!--Head links to stylesheet and displays website title-->
+    <head>
+        <meta charset="utf-8">
+        <title>Home - Clash Royale Game META-Analysis</title>
+        <link rel="stylesheet" href="../css/home.css">
+    </head>
+
+    <body>
+        <!--Header contains an image in the top left corner and the name of the website-->
+        <header>
+            <img src="../images/Clash-Royale-Laughing-King.jpg" alt="Clash Royale King">
+            <h1>Clash Royale Game META-Analysis</h1>
+        </header>
+
+        <!--nav element contains links to the homepage and About the Data page-->
+        <nav>
+            <a href="home.html" id='home'>Home</a>
+            <a href="about.html">About the Data</a>
+        </nav>
+
+        <!--Sumamry section provides a one-sentence overview of the purpose of the website-->
+        <section id='summary'>
+            <h2>A Tool to Find Your Decks</h2>
+            <p>Clash Royale Game META-Analysis is an online tool to search for META Clash Royale decks.</p>
+        </section>
+        <h2>Search For Decks</h2>
+
+        <!--Form element allows for user input to decide how they want to search and which cards they want to include or exclude-->
+        <form>
+            <div id='form-sections'>
+                <div>
+                    <label for="search-by">1) Sort Decks By:</label><br>
+                    <select name="search-by" id="search-by">
+                        <option value="win-rate-ascending">Win Rate, Ascending</option>
+                        <option value="win-rate-descending">Win Rate, Descending</option>
+                        <option value="player-trophies-ascending">Player Trophies, Ascending</option>
+                        <option value="player-trophies-descending">Player Trophies, Descending</option>
+                        <option value="elixir-cost-ascending">Elixir Cost, Ascending</option>
+                        <option value="elixir-cost-descending">Elixir Cost, Descending</option>
+                    </select><br>
+                </div>
+                <div id='bordered-column'>
+                    <label for="include-cards">2) Include Cards:</label><br>
+                    <input type="text" name="include-cards" id="include-cards"><br>
+                </div>
+                <div>
+                    <label for="exclude-cards">3) Exclude Cards:</label><br>
+                    <input type="text" name="exclude-cards" id="exclude-cards"><br>
+                </div>
+            </div>
+            <input id='submit-button' type='submit' value='FIND DECKS'>
+        </form>
+    </body>
+</html>

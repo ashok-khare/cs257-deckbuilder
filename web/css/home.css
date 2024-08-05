@@ -1,0 +1,81 @@
+/*Sets main background color and text color for the website*/
+body {
+    color: #dbbd0c;
+    background-color: #1c16d2;
+}
+
+/*Sets background color for the header, centers main title, and adds padding and margins to connect to nav bar*/
+header {
+    background-color: #26a783;
+    text-align: center;
+    padding: 0.5%;
+    margin-top: 0.5%;
+    font-size: 1.5em;
+}
+
+/*Sets background color for the nav bar, and evenly spaces links inside the nav bar*/
+nav {
+    background-color: #26a783;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/*Sets the size and position of the image in the top left of the header*/
+img {
+    max-height: 100px;
+    display: block;
+    float: left;
+}
+
+/*Evenly spaces each section of the user search form, and increases the size of the form elements*/
+#form-sections {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 1.5em;
+}
+
+/*Sets text color, background color, size, and positioning of the search form's submit button*/
+#submit-button {
+    color: #dbbd0c;
+    background-color: #26a783;
+    display: block;
+    margin: 2.5% auto;
+    font-size: 2em;
+}
+
+/*Changes the background color for the current page's link in the nav bar to show the user which page they are on*/
+#home {
+    background-color: #1c16d2;
+    padding: 0 0.5% 0.5% 0.5%;
+}
+
+/*Creates borders between each section of the search form to further separate them*/
+#bordered-column {
+    padding: 0 10%;
+    border-left: 2px solid #dbbd0c;
+    border-right: 2px solid #dbbd0c;
+}
+
+/*Centers the website summary section*/
+#summary {
+    text-align: center;
+}
+
+/*Increases the text size for paragraphs*/
+p {
+    font-size: 1.5em;
+}
+
+/*Increases the text size and centers h2 elements*/
+h2 {
+    text-align: center;
+    font-size: 2em;
+}
+
+/*Changes the color and increases the size of links in the nav bar*/
+nav a {
+    color: #dbbd0c;
+    font-size: 2em;
+}
